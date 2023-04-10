@@ -1,0 +1,88 @@
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  height: 50%;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: auto;
+}
+
+table th {
+  background-color: #f70aa0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff0090;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ddd;
+  color: #333;
+  text-decoration: none;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}
